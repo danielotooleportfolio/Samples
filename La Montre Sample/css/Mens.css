@@ -1,0 +1,387 @@
+body {
+	font-family: Georgia;
+	background-color:#F3F1ED;
+		
+}
+
+.nav_bg {
+	height: 80px;
+	width:100%;
+	border-bottom: 1px solid #ddd;
+	top: 0px;
+	z-index: +2;
+	background-color:#F9F9F1;
+}
+
+
+
+#head{
+	margin-top:-110px;
+}
+
+.container_12 {
+	line-height: 1.4;
+	background-color:white;
+	white-space:none;
+}
+
+#gal img{
+	z-index: -1;
+}
+
+#header1 span{
+	color:#CF000F;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#panel, #flip {
+    padding: 5px;
+	border-radius:5px 5px;
+    text-align: center;
+	width:200px;
+    background-color: #222222;
+    border: solid 1px #c3c3c3;
+	margin-left:20px;
+}
+
+#flip:hover{
+	background-color:#;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+	width:400px;
+}
+
+#address{
+	margin-top: -40px;
+    margin-left: -20px;
+	text-align:left;
+	width:260px;
+	
+}
+
+#stock{
+	margin-top: -154px;
+    margin-left: 220px;
+}
+
+
+.Stock{
+	margin-left:40px;
+	border:1px solid black;
+	border-radius: 5px 5px;
+	padding:3px 3px;
+	color:black;
+	background-color:white;
+}
+
+.Stock:hover{
+	background-color:#FFFFE0;
+}
+
+#check {
+	background-color: blue;
+	width:400px;
+}
+
+#header1{
+	margin-top:-10px;
+}
+
+#header1 h1{
+	color:black;
+}
+
+#header1 h1{
+	font-family:Baskerville Old Face;
+	margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 45px;
+
+}
+
+#address{
+	text-align:left;
+}
+
+.nav_list ul{
+	margin-top:90px;
+}
+
+.nav_list {
+	background-color:white;
+	height:30px;
+	margin-top:-10px;
+}
+
+.nav_list ul li {
+	display: inline;
+	opacity: 1.0;
+	filter: alpha(opacxity=100);
+	font-size: 14px;
+	margin:30px;
+}
+
+.nav_list ul li a{
+	font-size:16px;
+}
+
+.norm{
+	display:inline;
+	margin:-4px;
+}
+
+
+.norm:hover{
+	text-decoration:underline;
+	color:#CF000F;
+}
+
+.login:hover{
+	text-decoration:underline;
+	color:#CF000F;
+}
+
+#header{
+	margin-bottom:10px;
+}
+
+.nav_list a {
+	
+	color:black;	
+}
+
+.nav_list{
+	border-bottom:#d3d3d3;
+}
+ 
+ 
+#WatchInfo{
+	margin-bottom:80px;
+	margin-top:80px;
+} 
+
+
+.footer_bg{
+    height:205px;
+    background-color:#222222;	
+}
+
+
+#footertop ul{
+	margin-top:30px;
+}
+
+#footertop ul li {
+    
+   
+	display: inline;
+	opacity: 1.0;
+	font-size: 15px;
+}
+
+#footertop{
+	background-color:#222222;
+	width:650px;
+	
+}
+
+#footerbottom{
+	background-color:#222222;
+	width:970px;
+	height:50px;
+	
+}
+
+#footertop a {
+	margin:50px;
+	margin-top:20px;
+	color:white;
+}
+
+#footertop span{
+	font-family:Baskerville Old Face;
+	font-size:20px;
+}
+
+#footerbottom p{
+	color:white;
+	font-size:12px;
+	margin-top:;
+	width:;
+	margin:;
+}
+
+
+
+#footertop a:hover{
+	color:red;
+	text-decoration:none;
+}
+
+#copyright{
+	margin-top:40px;
+}
+
+#media{
+	margin-top:40px;
+}
+
+.nav_list ul ul{
+	background-color:#F9F9F1;
+	border:1px solid #d3d3d3;
+	width:240px;
+	margin-left:435px;
+    margin-top: 1px;
+	height:140px;
+	border-radius:5px 5px;
+	position:relative;
+	z-index: +1;
+	visibility:hidden;
+}
+
+.nav_list ul li:hover ul{
+	visibility:visible;
+}
+
+#box{
+	margin-left: 25px;
+    margin-bottom: -25px;
+	margin-top:10px;
+}
+
+.log p{
+	color:red;
+	font-size: 14px;
+    margin-top: 10px;
+}
+
+.log p:hover{
+	text-decoration:underline;
+}
+
+.log .button
+{
+	margin-left: 150px;
+    border-radius: 5px 5px;
+	background:#d3d3d3;
+	color:white;
+	padding:5px 10px 5px 10px;
+	border:none;
+	
+}
+
+.log .button:hover
+{
+	background:grey;
+}
+
+
+
+#WatchInfo span{
+	color:#ef4544;
+}
+
+#WatchInfo img{
+	margin-top:-125px;
+	width:380px;
+	height:380px;
+	
+}
+
+#watchimage h3{
+	position: absolute;
+	background-color:#222222;
+	color:white;
+	font-size:13px;
+	width:144px;
+	height:35px;
+    margin: 0 auto;
+    border-radius:+1;
+    margin-top:-30px;
+ 
+}
+
+#refine{
+	margin-top:20px;
+}
+
+#WatchDetails{
+	background-color:#d3d3d3;
+	border-radius:5px 5px;
+	height:830px;
+	color:white;
+}
+
+#WatchDetails h5{
+	margin-bottom:10px;
+}
+
+#WatchDetails span{
+	margin-left:20px;
+	margin-bottom:10px;
+	margin-right:40px;
+}
+
+#price{
+	margin-bottom:10px;
+}
+
+#Stock{
+	margin-left:20px;
+	margin-bottom:0px;
+}
+
+#dropbox{
+	margin-left:20px;
+}
+
+.Go{
+	border-radius:1px solid black;
+	color:white;
+}
+
+#desfeat{
+	margin-top:15px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+#desfeat h5{
+	margin-bottom:5px;
+	font-family:arial;
+}
+
+#WatchDetails h4{
+	font-family:arial;
+	margin-left:20px;
+}
+
+#desfeat p{
+	font-size:16px;
+	font-family:open sans-serif;
+}
+
+#top{
+	margin-top:10px;
+}
+
+#mydiv{
+	background-color:#222222;
+	height:40px;
+	padding-top:10px;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	border-radius:5px 5px;
+	margin-left:-380px;
+	width:380px;
+}
+
+
+
